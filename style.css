@@ -1,0 +1,66 @@
+body {
+    background-color: #000000;
+}
+
+h1 {
+    padding: 150px 40px 0 0;
+    margin: 0;
+    width: 500px;
+    height: 270px;
+    text-align: right;
+    box-sizing: border-box;
+    color: white;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120px;
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    border: none;
+    border-radius: 100px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: center;
+    
+}
+
+.gray {
+    font-size: 40px;
+    color: #000000;
+    background-color: #D4D4D2;
+}
+
+.number {
+    font-size: 55px;
+    color: white;
+    background-color: #505050;
+}
+
+#zero {
+    width: 220px;
+    padding-right: 120px;
+}
+
+.op {
+    font-size: 55px;
+    color: white;
+    background-color: #FF9500;
+}
