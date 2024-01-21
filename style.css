@@ -11,9 +11,9 @@ h1 {
     box-sizing: border-box;
     color: white;
     
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 120px;
-    font-weight: 400;
+    font-weight: 100;
 }
 
 .container {
@@ -52,6 +52,11 @@ button {
     font-size: 55px;
     color: white;
     background-color: #505050;
+    transition: .5s;
+}
+
+.number:hover {
+    background-color: #999999;
 }
 
 #zero {
@@ -59,8 +64,14 @@ button {
     padding-right: 120px;
 }
 
-.op {
+.op, .equal {
     font-size: 55px;
     color: white;
     background-color: #FF9500;
+    transition: .5s;
+}
+
+.op:hover, .equal:hover{
+    color: #FF9500;
+    background-color: white;
 }
