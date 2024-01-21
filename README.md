@@ -8,4 +8,4 @@ The design is inspired by iPhone's calculator app.
 
 This is my project for [The Odin Project](https://www.theodinproject.com/lessons/foundations-calculator).
 
-<!-- ### View and play here: <https://kennotfindsymbol.github.io/calculator/index.html> -->
+### View and play here: <https://kennotfindsymbol.github.io/calculator/index.html>
