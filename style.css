@@ -46,13 +46,18 @@ button {
     font-size: 40px;
     color: #000000;
     background-color: #D4D4D2;
+    transition: .3s;
+}
+
+.gray:hover {
+    background-color: #ffffff;
 }
 
 .number {
     font-size: 55px;
     color: white;
     background-color: #505050;
-    transition: .5s;
+    transition: .3s;
 }
 
 .number:hover {
@@ -68,7 +73,7 @@ button {
     font-size: 55px;
     color: white;
     background-color: #FF9500;
-    transition: .5s;
+    transition: .3s;
 }
 
 .op:hover, .equal:hover{
