@@ -35,8 +35,16 @@ numbers.forEach(number => {
 const ops = document.querySelectorAll('.op');
 ops.forEach(op => {
     op.addEventListener('click', () => {
-        currOp = op.id;
-        isCurrentLeft = false;
+        if(isCurrentLeft){
+            isCurrentLeft = false;
+            currOp = op.id;
+        } else {
+            const result = calculate(lhs, rhs, currOp);
+            currOp = op.id;
+            lhs = result;
+            rhs = 0;
+            document.querySelector('h1').textContent = result;
+        }
     })
 })
 
